@@ -4,7 +4,7 @@ This is a reproduction repository for generating bad import files using the `pul
 
 ## Issue
 
-The issue appears when trying to generate an import file for resources using parent components (e.g. through a ComponentResource) where the parent resources already exist in the stack.
+The issue appears when generating an import file for resources using parent components (e.g. through a ComponentResource) where the parent resources already exist in the stack.
 The import file generation creates a mapping of an id to the existing parent component urn.
 It then uses add this mapping `id: parent-urn` in the `nameTable` field in the import file.
 The issue shows when multiple existing parent components have the same id which results only one parent being referenced in the `nameTable` field at random.
