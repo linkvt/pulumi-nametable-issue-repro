@@ -9,6 +9,8 @@ The import file generation creates a mapping of an id to the existing parent com
 It then uses add this mapping `id: parent-urn` in the `nameTable` field in the import file.
 The issue shows when multiple existing parent components have the same id which results only one parent being referenced in the `nameTable` field at random.
 
+Check the `nameTable` field in the [import.json](./import.json).
+
 ## Reproduction
 
 1. Install the deps with `npm install` or `make setup`
