@@ -1,0 +1,19 @@
+{
+    "nameTable": {
+        "test": "urn:pulumi:dev::pulumi-nametable-issue-repro::component2::test"
+    },
+    "resources": [
+        {
+            "type": "dummy-component",
+            "name": "test-bucket-1",
+            "parent": "test",
+            "component": true
+        },
+        {
+            "type": "dummy-component",
+            "name": "test-bucket-2",
+            "parent": "test",
+            "component": true
+        }
+    ]
+}

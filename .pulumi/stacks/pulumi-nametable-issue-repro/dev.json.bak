@@ -1,0 +1,48 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "organization/pulumi-nametable-issue-repro/dev",
+        "latest": {
+            "manifest": {
+                "time": "2025-06-03T10:25:20.674638+02:00",
+                "magic": "dfa0a39f34bf6a6fa6242cc6b95b9d227156cf7fa74c7a18a36cad19fd863878",
+                "version": "v3.173.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:zncMwMD31nE=:v1:KiMq5BjN17dAgaq3:1VlcS+bIXHSw4aHxKEYbc3yJ5bJHGg=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::pulumi-nametable-issue-repro::pulumi:pulumi:Stack::pulumi-nametable-issue-repro-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "created": "2025-06-03T08:06:26.51147Z",
+                    "modified": "2025-06-03T08:06:26.51147Z",
+                    "sourcePosition": "project:///node_modules/@pulumi/runtime/stack.ts#37,19"
+                },
+                {
+                    "urn": "urn:pulumi:dev::pulumi-nametable-issue-repro::component2::test",
+                    "custom": false,
+                    "type": "component2",
+                    "parent": "urn:pulumi:dev::pulumi-nametable-issue-repro::pulumi:pulumi:Stack::pulumi-nametable-issue-repro-dev",
+                    "created": "2025-06-03T08:06:26.814329Z",
+                    "modified": "2025-06-03T08:06:26.814329Z",
+                    "sourcePosition": "project:///index.ts#51,1"
+                },
+                {
+                    "urn": "urn:pulumi:dev::pulumi-nametable-issue-repro::component1::test",
+                    "custom": false,
+                    "type": "component1",
+                    "parent": "urn:pulumi:dev::pulumi-nametable-issue-repro::pulumi:pulumi:Stack::pulumi-nametable-issue-repro-dev",
+                    "created": "2025-06-03T08:06:26.814992Z",
+                    "modified": "2025-06-03T08:06:26.814992Z",
+                    "sourcePosition": "project:///index.ts#50,1"
+                }
+            ],
+            "metadata": {}
+        }
+    }
+}

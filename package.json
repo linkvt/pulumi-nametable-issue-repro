@@ -1,0 +1,11 @@
+{
+  "name": "pulumi-nametable-issue-repro",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.173.0"
+  }
+}
